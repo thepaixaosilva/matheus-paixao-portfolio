@@ -68,26 +68,17 @@ const Contact = () => {
         
         <Card className="shadow-elegant bg-gradient-to-r from-primary/5 to-accent/5">
           <CardContent className="p-8">
-            <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div>
-                <h3 className="text-2xl font-semibold mb-4">Informações de Contato</h3>
-                <div className="space-y-3">
-                  <div className="flex items-center gap-3">
-                    <MapPin className="w-5 h-5 text-muted-foreground" />
-                    <span>Indaiatuba, São Paulo</span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <Mail className="w-5 h-5 text-muted-foreground" />
-                    <span>Disponível via LinkedIn</span>
-                  </div>
+            <div className="text-center">
+              <h3 className="text-2xl font-semibold mb-4">Informações de Contato</h3>
+              <div className="space-y-3 max-w-md mx-auto">
+                <div className="flex items-center justify-center gap-3">
+                  <MapPin className="w-5 h-5 text-muted-foreground" />
+                  <span>Indaiatuba, São Paulo</span>
                 </div>
-              </div>
-              <div className="text-center md:text-right">
-                <img 
-                  src="/lovable-uploads/685c5764-8f2e-4a04-8452-5cd9661eddc2.png" 
-                  alt="Matheus Paixão Silva - Foto Profissional" 
-                  className="w-32 h-32 rounded-full mx-auto md:ml-auto object-cover shadow-elegant"
-                />
+                <div className="flex items-center justify-center gap-3">
+                  <Mail className="w-5 h-5 text-muted-foreground" />
+                  <span>Disponível via LinkedIn</span>
+                </div>
               </div>
             </div>
           </CardContent>
