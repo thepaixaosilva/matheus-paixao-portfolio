@@ -16,7 +16,7 @@ const Footer = () => {
           
           <div className="text-center">
             <p className="text-sm text-muted-foreground">
-              © 2024 Matheus Paixão Silva. Todos os direitos reservados.
+              © 2025 Matheus Paixão Silva. Todos os direitos reservados.
             </p>
           </div>
           

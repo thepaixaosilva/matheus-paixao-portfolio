@@ -18,22 +18,22 @@ const Experience = () => {
     },
     {
       title: "Sistema de Carteirinhas Estudantis",
-      description: "Automação do processo de emissão de carteirinhas para estudantes",
+      description: "Sistema interno para emissão de carteirinhas para estudantes",
       icon: <Code2 className="w-5 h-5" />,
-      type: "Automação"
+      type: "Sistema Interno"
     }
   ];
 
   const technologies = [
-    "JavaScript",
-    "React",
-    "Express",
-    "Node.js",
-    "MySQL",
-    "HTML5",
-    "CSS3",
-    "Git",
-    "RESTful APIs"
+    { name: "JavaScript", icon: "⚡" },
+    { name: "React", icon: "⚛️" },
+    { name: "Express", icon: "🚀" },
+    { name: "Node.js", icon: "🟢" },
+    { name: "MySQL", icon: "🗄️" },
+    { name: "HTML5", icon: "🌐" },
+    { name: "CSS3", icon: "🎨" },
+    { name: "Git", icon: "📁" },
+    { name: "RESTful APIs", icon: "🔗" }
   ];
 
   return (
@@ -117,8 +117,8 @@ const Experience = () => {
                 variant="outline" 
                 className="px-4 py-2 text-sm hover:bg-primary hover:text-primary-foreground transition-smooth cursor-default"
               >
-                <Globe className="w-4 h-4 mr-2" />
-                {tech}
+                <span className="mr-2 text-base">{tech.icon}</span>
+                {tech.name}
               </Badge>
             ))}
           </div>

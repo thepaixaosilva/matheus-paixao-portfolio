@@ -26,7 +26,7 @@ const About = () => {
                       <strong>Análise e Desenvolvimento de Sistemas</strong>
                     </p>
                     <p className="text-sm text-muted-foreground">
-                      Fatec Indaiatuba • 6º Semestre (2022-2024)
+                      Fatec Indaiatuba • 6º Semestre (2023-2025)
                     </p>
                   </div>
                 </div>
