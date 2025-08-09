@@ -54,6 +54,7 @@ export default {
 				},
 				'tech-blue': 'hsl(var(--tech-blue))',
 				'fiec-red': 'hsl(var(--fiec-red))',
+				'purple-accent': 'hsl(var(--purple-accent))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
